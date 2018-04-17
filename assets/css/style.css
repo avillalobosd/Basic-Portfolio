@@ -1,3 +1,9 @@
+a:visited{color: gray}
+a:link{text-decoration:none;}
+a:hover{background-color:#4aaaa5; color: white;}
+a.linkimagen{color: white}
+a.linkimagen:active{font-weight: bold}
+
 .clearfix::after {
 content: "";
 display: block;
@@ -138,16 +144,14 @@ margin-bottom:100px;
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
 }
 
 .input{
     width:100%;
     padding-top:10px;
-    /* padding-left:10px; */
     padding-bottom:10px;
 }
 
-a:visited{color: gray}
-a:link{text-decoration:none;}
-a:hover{background-color:#4aaaa5; color: white;}
+body{background-image: url("../images/circles-light.png");}
+
+/* body {background-image: url("htmlcss.jpg")} */
