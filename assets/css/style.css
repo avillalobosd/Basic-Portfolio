@@ -13,8 +13,8 @@ clear:both;}
 }
 #cuerpo{
 margin-bottom:100px;
-
 }
+
 #divisioncuerpo{
     margin-top:40px;
     margin-left: auto;
@@ -111,3 +111,43 @@ margin-bottom:100px;
     left: 50%;
 }
 
+.espacioimagen {
+    padding-top:30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+    height: 200px;
+    width: 300px;
+}
+
+.textoimagen{
+    color: white;
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    background-color: #4aaaa5;
+}
+
+.imagen {height: 200px}
+
+#boton {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.input{
+    width:100%;
+    padding-top:10px;
+    /* padding-left:10px; */
+    padding-bottom:10px;
+}
+
+a:visited{color: gray}
+a:link{text-decoration:none;}
+a:hover{background-color:#4aaaa5; color: white;}
